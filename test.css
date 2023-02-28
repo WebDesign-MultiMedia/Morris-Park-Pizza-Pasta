@@ -61,7 +61,7 @@
     }
 
     h2 {
-        font-size: 3vw;
+        font-size: 8vw;
         text-shadow: 1px 1px 3px black;
     }
 
@@ -69,7 +69,7 @@
         color: rgb(62, 214, 103);
         padding-top: 20px;
         text-shadow: 1px 1px 2px rgb(0, 0, 0);
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .MenuList li{
