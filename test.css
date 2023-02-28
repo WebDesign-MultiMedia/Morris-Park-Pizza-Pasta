@@ -36,6 +36,7 @@
         position: relative;
         z-index: 1;
         height: 10em;
+        font-family: 'Mynerve', cursive;
     }
 
     
@@ -73,6 +74,8 @@
     h2 {
         font-size: 3.5em;
         text-shadow: 1px 1px 3px black;
+        font-family: 'Gloock', serif;
+
     }
 
     h3{
@@ -80,6 +83,7 @@
         padding-top: 20px;
         text-shadow: 1px 1px 2px rgb(0, 0, 0);
         font-size: 1.5em;
+        
     }
 
     #CheeseBur{
@@ -93,7 +97,6 @@
         padding: 0.5em;
         text-shadow: 1px 1px 3px black;
         font-size: 1.4em;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     }
     .MenuList{
@@ -102,15 +105,19 @@
     
     i{
         color: rgb(245, 245, 245);
-        font-size: 0.8em;
+        font-size: 1em;
         text-shadow: 1px 2px 3px rgb(215, 68, 68);
         font-weight: bolder;
+        font-family: 'Nanum Brush Script', cursive;
+
     }
     em{
         color: rgb(255, 255, 255);
-        font-size: 0.8em;
+        font-size: 1em;
         text-shadow: 1px 2px 3px rgb(215, 68, 68);
         font-weight: bolder;
+        font-family: 'Nanum Brush Script', cursive;
+
 
     }
 
@@ -126,16 +133,20 @@
     }
 
     #LOCATION{
-        color: rgb(62, 214, 103);
-        font-size: 3em;
+        color: rgb(244, 244, 244);
+        font-size: 2.6em;
         padding-bottom: 50px;
         text-shadow: 2px 2px 4px black;
+        font-family: 'Gloock', serif;
+
 
     }
 
         .HourOp{
             position: relative;
             top: 1em;
+            font-family: 'Gloock', serif;
+
         }
     address{
         font-size: 2.5em;
@@ -175,7 +186,7 @@
     }
 
     #Hh-oper{
-        color: rgb(62, 214, 103);
+        color: rgb(247, 248, 247);
         font-size: 2.6em;
         text-shadow: 1px 0px 3px black;
     }
@@ -228,6 +239,7 @@
 @media (min-width: 576px) { 
     body{
         background-color: rgb(178, 102, 25);
+        display: none;
     }
 
     
