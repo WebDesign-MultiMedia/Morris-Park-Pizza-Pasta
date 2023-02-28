@@ -6,13 +6,22 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body{
+  
+  
+  /*  body{
         background-image: url(eiliv-aceron-M-pEl_nv1Q0-unsplash.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size:contain;
         background-color: black;
+    } */
+
+    #responsive-img{
+
+        position: fixed;
+        width: 100%;
     }
+
     
     
  /* HOME */
@@ -111,8 +120,9 @@
 
     .grid{
         position: relative;
-        top: 100px;
+        top: 20px;
         background-color: rgba(0, 0, 0, 0.381);
+        height: 60em;
     }
 
     #LOCATION{
@@ -125,7 +135,7 @@
 
         .HourOp{
             position: relative;
-            top: 3em;
+            top: 1em;
         }
     address{
         font-size: 2.5em;
@@ -172,12 +182,16 @@
 
         .img-responsive{
             width: 25%;
+            position: relative;
+            top: -0.6em;       
         }
             .img-responsive:hover{
                 border: 0.5px solid rgb(187, 255, 0);
                 border-left: none;
                 border-right: none;
-                position:static;
+                position:relative;
+                width: 25%;
+               top: -0.6em;  
             }
 
 
