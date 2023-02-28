@@ -7,7 +7,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body{
-        background-image: url(img-pizza/eiliv-aceron-M-pEl_nv1Q0-unsplash.jpg);
+        background-image: url(eiliv-aceron-M-pEl_nv1Q0-unsplash.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size:contain;
