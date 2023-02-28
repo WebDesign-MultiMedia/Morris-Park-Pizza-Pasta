@@ -38,6 +38,9 @@
 
     /* MENU */
 
+#CB{
+   font-size:4pm;
+}
     #txt-color{
         color: rgb(172, 183, 92);
         font-size: 0.8em;
