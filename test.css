@@ -1,0 +1,258 @@
+
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url(img-pizza/eiliv-aceron-M-pEl_nv1Q0-unsplash.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+    
+    
+ /* HOME */
+    .Body{
+        position: relative;
+        top: 9em;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 3.6em;
+        position: relative;
+        z-index: 1;
+        height: 10em;
+    }
+
+    
+
+
+}
+
+
+
+
+    /* MENU */
+
+    #txt-color{
+        color: rgb(172, 183, 92);
+        font-size: 0.8em;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px black;
+    }
+    #txt-color2{
+        text-decoration: underline 3px;
+        font-size: 1em;
+        color: darkorange;
+        text-shadow: 1px 1px 3px black;
+    }
+    #price{
+        color: darkorange;
+        text-shadow: 1px 1px 3px black;
+
+    }
+
+    .container{
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+
+    h2 {
+        font-size: 3.5em;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    h3{
+        color: rgb(62, 214, 103);
+        padding-top: 20px;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        font-size: 2em;
+    }
+
+    .MenuList li{
+        list-style-type: none;
+        text-align: left;
+        color: rgb(252, 252, 252);
+        padding: 0.5em;
+        text-shadow: 1px 1px 3px black;
+        font-size: 1.4em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .MenuList{
+        padding-top: 10px;
+    }
+    
+    i{
+        color: rgb(245, 245, 245);
+        font-size: 0.8em;
+        text-shadow: 1px 2px 3px rgb(215, 68, 68);
+        font-weight: bolder;
+    }
+    em{
+        color: rgb(255, 255, 255);
+        font-size: 0.8em;
+        text-shadow: 1px 2px 3px rgb(215, 68, 68);
+        font-weight: bolder;
+
+    }
+
+
+
+    /* LOCATION */
+
+    .grid{
+        position: relative;
+        top: 100px;
+        background-color: rgba(0, 0, 0, 0.381);
+    }
+
+    #LOCATION{
+        color: rgb(62, 214, 103);
+        font-size: 3em;
+        padding-bottom: 50px;
+        text-shadow: 2px 2px 4px black;
+
+    }
+
+        .HourOp{
+            position: relative;
+            top: 3em;
+        }
+    address{
+        font-size: 2.5em;
+        color: aliceblue;
+        text-shadow: 2px 2px 3px black;
+    }
+
+
+     a{
+            font-size: 2em;
+            list-style-type: none;
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover{
+            color: red;
+        }
+    .fa-solid {
+        font-size: 1.5em;
+        color: rgb(21, 248, 40);
+        text-shadow: 1px 3px 3px red;
+        cursor: pointer;
+    }
+    .fa-solid:hover{
+        color: red;
+        text-shadow: 1px 3px 3px green;
+       
+    }
+    #h-operation{
+        font-size: 1.5em;
+        position: relative;
+        top: 2em;
+    }
+
+    #h-operation strong{
+        color: lightblue;
+    }
+
+    #Hh-oper{
+        color: rgb(62, 214, 103);
+        font-size: 2.6em;
+        text-shadow: 1px 0px 3px black;
+    }
+
+        .img-responsive{
+            width: 25%;
+        }
+            .img-responsive:hover{
+                border: 0.5px solid rgb(187, 255, 0);
+                border-left: none;
+                border-right: none;
+                position:static;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    body{
+        background-color: rgb(178, 102, 25);
+    }
+
+    
+/* NAVIGATION */
+.Nav {
+    background-color: rgba(0, 255, 255, 0.51);
+    position: fixed;
+    width: 100%;
+    height: 5em;
+
+}
+
+.Nav a{
+    color: red;
+    text-decoration: none;
+    position: relative;
+    top: 1.2em;
+    font-size: 2em;
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body{
+        background-color: blue;
+    }
+    
+
+}
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
