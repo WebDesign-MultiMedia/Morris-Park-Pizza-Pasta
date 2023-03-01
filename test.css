@@ -391,8 +391,10 @@
 @media (min-width: 768px) { 
     body{
         background-color: blue;
-        display: none;
-    }
+        background-image: url("pablo-pacheco-D3Mag4BKqns-unsplash.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        }
     
 
 }
