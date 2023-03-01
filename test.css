@@ -393,7 +393,7 @@
     body{
         background-color: blue;
         background-image: url("pablo-pacheco-D3Mag4BKqns-unsplash.jpg");
-        background-attachment: fixed;
+        background-attachment:scroll;
         background-size: cover;
         }
     
@@ -420,5 +420,5 @@
         }
 }
 
-// XX-Large devices (larger desktops, 1400px and up)
+/* XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { ... } */
