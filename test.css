@@ -31,8 +31,14 @@
     }
 
     #HOME{
-        height: 300px;
+        margin-top: 100px;
+        height:400px;
         position: relative;
+        top: -100px;
+        padding-top: 2em;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        font-weight: bold;
+
     }
 
     h1{
@@ -40,7 +46,6 @@
         font-size: 3.6em;
         position: relative;
         z-index: 1;
-        height: 10em;
         font-family: 'Mynerve', cursive;
     }
 
@@ -90,7 +95,7 @@
     }
 
     h3{
-        color: rgb(81, 191, 84);
+        color: rgb(88, 213, 255);
         padding-top: 20px;
         text-shadow: 1px 1px 1px rgb(0, 0, 0);
         font-family: 'EB Garamond', serif;
@@ -130,6 +135,11 @@
         text-shadow: 1px 2px 1px rgb(215, 68, 68);
         font-family: 'Montserrat Alternates', sans-serif;
 
+
+    }
+
+    #MENU{
+        padding-top: 0.9em;
 
     }
 
@@ -269,8 +279,31 @@
 @media (min-width: 576px) { 
     body{
         background-color: rgb(178, 102, 25);
-        display: none;
+        background-image: url("pablo-pacheco-D3Mag4BKqns-unsplash.jpg");
+        background-attachment: fixed;
+        background-size: cover;
     }
+
+        #responsive-img{
+            display: none;
+        }
+
+
+/* HOME */
+#HOME{
+    text-align: center;
+    margin-top: 8em;
+    position: relative;
+    bottom: 300px;
+    font-size: 5em;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.363);
+    max-width: 100%;
+
+}
 
     
 /* NAVIGATION */
@@ -288,11 +321,65 @@
     position: relative;
     top: 1.2em;
     font-size: 2em;
+    
 
 }
 
+/* MENU */
 
+.MenuList li{
+    margin: 10px;
 }
+
+#MENU{
+    font-size: 5em;
+    padding-bottom: 2em;
+    padding-top: 0.6em;
+}
+
+
+/* LOCATION */
+    .img-responsive{
+        width: 18%;
+        border: none;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+
+    }
+    .img-responsive:hover{
+  width: 18%;
+  border: none;
+  top: 0.2em;  
+  margin-bottom: none;
+  border-bottom: 2px solid rgb(218, 238, 63);
+    }
+
+    #h-operation{
+        font-size: 1.8em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -304,6 +391,7 @@
 @media (min-width: 768px) { 
     body{
         background-color: blue;
+        display: none;
     }
     
 
