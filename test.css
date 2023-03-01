@@ -4,6 +4,12 @@
 // No media query for `xs` since this is the default in Bootstrap */
 
 
+#responsive-img{
+
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
@@ -20,6 +26,7 @@
 
         position: fixed;
         width: 100%;
+        height: auto;
     }
 
     
@@ -277,12 +284,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    body{
-        background-color: rgb(178, 102, 25);
-        background-image: url("pablo-pacheco-D3Mag4BKqns-unsplash.jpg");
-        background-attachment: fixed;
-        background-size: cover;
-    }
+
 
         #responsive-img{
             display: none;
@@ -394,6 +396,12 @@
         background-color: blue;
 
         }
+        #responsive-img{
+
+            position: fixed;
+            width: 100%;
+            height: auto;
+        }
     
 
 }
@@ -404,6 +412,12 @@
         background-color: rgb(0, 255, 98);
 
         }
+        #responsive-img{
+
+            position: fixed;
+            width: 100%;
+            height: auto;
+        }
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
@@ -411,6 +425,12 @@
     body{
         background-color: rgb(255, 77, 0);
 
+        }
+        #responsive-img{
+
+            position: fixed;
+            width: 100%;
+            height: auto;
         }
 }
 
