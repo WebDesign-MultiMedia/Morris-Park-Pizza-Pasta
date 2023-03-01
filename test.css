@@ -360,7 +360,7 @@
     }
 
 
-
+}
 
 
 
@@ -388,7 +388,8 @@
 
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 868px) { 
+    
     body{
         background-color: blue;
         background-image: url("pablo-pacheco-D3Mag4BKqns-unsplash.jpg");
@@ -399,11 +400,25 @@
 
 }
 
-/* Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+ /*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body{
+        background-color: rgb(0, 255, 98);
+        background-image: url("pablo-pacheco-D3Mag4BKqns-unsplash.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        }
+}
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    body{
+        background-color: rgb(255, 77, 0);
+        background-image: url("pablo-pacheco-D3Mag4BKqns-unsplash.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        }
+}
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) { ... } */
