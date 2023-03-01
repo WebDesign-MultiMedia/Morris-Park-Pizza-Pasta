@@ -30,6 +30,11 @@
         top: 9em;
     }
 
+    #HOME{
+        height: 300px;
+        position: relative;
+    }
+
     h1{
         text-align: center;
         font-size: 3.6em;
@@ -112,7 +117,7 @@
         padding-top: 10px;
     }
     
-    i{
+    .MenuList i{
         color: rgb(245, 245, 245);
         font-size: 0.9em;
         text-shadow: 1px 2px 1px rgb(215, 68, 68);
@@ -161,10 +166,13 @@
         text-shadow: 2px 2px 3px black;
         font-family: 'Montserrat Alternates', sans-serif;
         position: relative;
-        top: 10px;
+        top: -100px;
 
     }
-
+        #tell{
+            position: relative;
+            bottom: 110px;
+        }
 
      a{
             font-size: 2.3em;
@@ -172,6 +180,7 @@
             text-decoration: none;
             color: rgb(222, 209, 112);
             font-family: 'Gloock', serif;
+            position: relative;
 
         }
         a:hover{
@@ -181,13 +190,12 @@
         }
     .fa-solid {
         font-size: 1.5em;
-        color: rgb(21, 248, 40);
-        text-shadow: 1px 3px 3px red;
+        color: rgb(234, 128, 128);
+        text-shadow: 1px 1px 3px black;
         cursor: pointer;
     }
     .fa-solid:hover{
-        color: red;
-        text-shadow: 1px 3px 3px green;
+        color: rgb(245, 245, 245);
        
     }
     #h-operation{
@@ -216,7 +224,7 @@
         .img-responsive{
             width: 25%;
             position: relative;
-            top: -0.6em;       
+            top: 0.4em;       
         }
             .img-responsive:hover{
                 border: 0.5px solid rgb(187, 255, 0);
