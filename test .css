@@ -1,0 +1,620 @@
+
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  
+  /*  body{
+        background-image: url(eiliv-aceron-M-pEl_nv1Q0-unsplash.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: black;
+    } */
+
+    #responsive-img{
+
+        
+    }
+
+    
+    
+ /* HOME */
+    .Body{
+        position: relative;
+        top: 9em;
+    }
+
+    #HOME{
+        margin-top: 100px;
+        height:400px;
+        position: relative;
+        top: -100px;
+        padding-top: 2em;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+        font-weight: bold;
+
+    }
+
+    h1{
+        text-align: center;
+        font-size: 3.6em;
+        position: relative;
+        z-index: 1;
+        font-family: 'Mynerve', cursive;
+    }
+
+    
+
+
+}
+
+
+
+
+    /* MENU */
+
+    #txt-color{
+        color: rgb(255, 241, 133);
+        font-size: 1em;
+        font-weight: bolder;
+        text-shadow: 1px 1px 3px black;
+        font-family: 'Sorts Mill Goudy', serif;
+
+    }
+    #txt-color2{
+        text-decoration: underline 1px;
+        font-size: 1em;
+        color: rgb(255, 178, 83);
+        text-shadow: 1px 1px 3px rgb(12, 12, 12);
+    }
+    #price{
+        text-decoration: underline 1px;
+        font-size: 1em;
+        color: rgb(255, 178, 83);
+        text-shadow: 1px 1px 3px rgb(12, 12, 12);
+
+    }
+
+
+
+    .container{
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+
+    h2 {
+        font-size: 3.5em;
+        text-shadow: 1px 1px 3px black;
+        font-family: 'Gloock', serif;
+
+    }
+
+    h3{
+        color: rgb(88, 213, 255);
+        padding-top: 20px;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        font-family: 'EB Garamond', serif;
+        font-size: 6vw;
+
+        
+    }
+
+    #CheeseBur{
+        font-size: 1vw;
+    }
+
+    .MenuList li{
+        list-style-type: none;
+        text-align: left;
+        color: rgb(252, 252, 252);
+        padding: 0.5em;
+        text-shadow: 1px 1px 3px black;
+        font-size: 1.4em;
+        font-family: 'Montserrat Alternates', sans-serif;
+
+    }
+    .MenuList{
+        padding-top: 10px;
+    }
+    
+    .MenuList i{
+        color: rgb(245, 245, 245);
+        font-size: 0.9em;
+        text-shadow: 1px 2px 1px rgb(215, 68, 68);
+        font-family: 'Montserrat Alternates', sans-serif;
+
+    }
+    em{
+        color: rgb(255, 255, 255);
+        font-size: 0.9em;
+        text-shadow: 1px 2px 1px rgb(215, 68, 68);
+        font-family: 'Montserrat Alternates', sans-serif;
+
+
+    }
+
+    #MENU{
+        padding-top: 0.9em;
+
+    }
+
+
+
+    /* LOCATION */
+
+    .grid{
+        position: relative;
+        top: 20px;
+        background-color: rgba(0, 0, 0, 0.381);
+        height: 60em;
+    }
+
+    #LOCATION{
+        color: rgb(244, 244, 244);
+        font-size: 2.6em;
+        padding-bottom: 50px;
+        text-shadow: 2px 2px 4px black;
+        font-family: 'Gloock', serif;
+
+
+    }
+
+        .HourOp{
+            position: relative;
+            top: 1em;
+            font-family: 'Gloock', serif;
+
+        }
+    address{
+        font-size: 2.3em;
+        color: aliceblue;
+        text-shadow: 2px 2px 3px black;
+        font-family: 'Montserrat Alternates', sans-serif;
+        position: relative;
+        top: -100px;
+
+    }
+        #tell{
+            position: relative;
+            bottom: 110px;
+        }
+
+     a{
+            font-size: 2.3em;
+            list-style-type: none;
+            text-decoration: none;
+            color: rgb(222, 209, 112);
+            font-family: 'Gloock', serif;
+            position: relative;
+
+        }
+        a:hover{
+            color: rgb(0, 41, 207);
+            cursor: pointer;
+            text-shadow: 1px 1px 3px white;
+        }
+    .fa-solid {
+        font-size: 1.5em;
+        color: rgb(234, 128, 128);
+        text-shadow: 1px 1px 3px black;
+        cursor: pointer;
+    }
+    .fa-solid:hover{
+        color: rgb(245, 245, 245);
+       
+    }
+    #h-operation{
+        font-size: 1.3em;
+        position: relative;
+        top: 2em;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 1px black;
+    }
+    
+
+    #h-operation strong{
+        color: rgb(255, 241, 133);
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 1.6em;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    }
+
+    #Hh-oper{
+        color: rgb(247, 248, 247);
+        font-size: 2.6em;
+        text-shadow: 1px 0px 3px black;
+    }
+
+        .img-responsive{
+            width: 25%;
+            position: relative;
+            top: 0.4em;       
+        }
+            .img-responsive:hover{
+                border: 0.5px solid rgb(187, 255, 0);
+                border-left: none;
+                border-right: none;
+                position:relative;
+                width: 25%;
+               top: -0.6em;  
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+body{
+	
+	background-color: green;
+}
+
+
+/* HOME */
+#HOME{
+    text-align: center;
+    margin-top: 8em;
+    position: relative;
+    bottom: 300px;
+    font-size: 5em;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.363);
+    max-width: 100%;
+
+}
+
+    
+/* NAVIGATION */
+.Nav {
+    background-color: rgba(0, 255, 255, 0.51);
+    position: fixed;
+    width: 100%;
+    height: 5em;
+
+}
+
+.Nav a{
+    color: red;
+    text-decoration: none;
+    position: relative;
+    top: 1.2em;
+    font-size: 2em;
+    
+
+}
+
+/* MENU */
+
+.MenuList li{
+    margin: 10px;
+}
+
+#MENU{
+    font-size: 5em;
+    padding-bottom: 2em;
+    padding-top: 0.6em;
+}
+
+
+/* LOCATION */
+    .img-responsive{
+        width: 18%;
+        border: none;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+
+    }
+    .img-responsive:hover{
+  width: 18%;
+  border: none;
+  top: 0.2em;  
+  margin-bottom: none;
+  border-bottom: 2px solid rgb(218, 238, 63);
+    }
+
+    #h-operation{
+        font-size: 1.8em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 868px) { 
+    
+    body{
+        background-color: blue;
+
+        }
+        #responsive-img{
+
+           
+            width: 100%;
+				height: auto;
+				object-fit: cover;
+				position: fixed;
+				top: -300px;
+				z-index:  -1;
+          
+        }
+    /* HOME */
+
+	#HOME{
+	font-size: 7em;
+	position: relative;
+	top: -6em;
+	padding-top: 40px;
+	
+	}
+	
+	#MENU{
+		font-size: 7em;
+	}
+	
+	.MenuList li{
+		font-size: 3vw;
+		}
+	
+	.toppings{
+			position: relative;
+			top: 3em;
+		
+		}
+		.toppings h4{
+		
+		color: white;
+		font-size: 1.5em;
+		text-shadow: 1px 1px 6px yellow;
+			
+		}
+		
+		.toppings p{
+			color: rgb(255, 241, 133);
+			text-shadow: 1px 1px 5px black;
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		.Pasta-choice{
+			position: relative;
+			top: 1em;
+		}
+		
+		.Pasta-choice h4{
+			color: white;
+			font-size: 1.5em;
+			text-shadow: 1px 1px 6px yellow;
+		}
+		
+		#pasta{
+			color: rgb(255, 241, 133);
+			text-shadow: 1px 1px 5px black;
+			font-weight: bold;
+			font-style:italic;			
+		}
+		
+		#pasta i{
+		color: red;
+		font-style: none;
+		text-shadow: 1px 1px 3px black;
+		}
+		
+		.deluxe h5{
+			color: white;
+			text-shadow: 1px 1px 6px yellow;
+			position: relative;
+			top: 2em;
+		
+		}
+		
+		#burrito-cap{
+		color: white;
+			text-shadow: 1px 1px 6px yellow;
+			position:  relative;
+			top: 1em;
+		}
+		
+		
+		#txt-color2{
+		font-size: 2em;
+		text-shadow: 1px 1px 6px black;
+		font-weight: bold;
+		}
+		#price{
+			font-size: 1.5em;
+			text-shadow: 1px 1px 6px black;
+			font-style: oblique;
+			text-decoration: underline;
+		}
+		
+}
+
+ /*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #responsive-img{
+background-color: gold;
+
+}
+  #responsive-img{
+
+           
+            width: 100%;
+				height: auto;
+				object-fit: cover;
+				position: fixed;
+				top: -300px;
+				z-index:  -1;
+          
+        }
+    /* HOME */
+
+	#HOME{
+	font-size: 7em;
+	position: relative;
+	top: -6em;
+	padding-top: 40px;
+	
+	}
+	
+	#MENU{
+		font-size: 7em;
+	}
+	
+	.MenuList li{
+		font-size: 3vw;
+		}
+	
+	.toppings{
+			position: relative;
+			top: 3em;
+		
+		}
+		.toppings h4{
+		
+		color: white;
+		font-size: 1.5em;
+		text-shadow: 1px 1px 6px yellow;
+			
+		}
+		
+		.toppings p{
+			color: rgb(255, 241, 133);
+			text-shadow: 1px 1px 5px black;
+			font-weight: bold;
+			font-style: italic;
+		}
+
+		.Pasta-choice{
+			position: relative;
+			top: 1em;
+		}
+		
+		.Pasta-choice h4{
+			color: white;
+			font-size: 1.5em;
+			text-shadow: 1px 1px 6px yellow;
+		}
+		
+		#pasta{
+			color: rgb(255, 241, 133);
+			text-shadow: 1px 1px 5px black;
+			font-weight: bold;
+			font-style:italic;			
+		}
+		
+		#pasta i{
+		color: red;
+		font-style: none;
+		text-shadow: 1px 1px 3px black;
+		}
+		
+		.deluxe h5{
+			color: white;
+			text-shadow: 1px 1px 6px yellow;
+			position: relative;
+			top: 2em;
+		
+		}
+		
+		#burrito-cap{
+		color: white;
+			text-shadow: 1px 1px 6px yellow;
+			position:  relative;
+			top: 1em;
+		}
+		
+		
+		#txt-color2{
+		font-size: 2em;
+		text-shadow: 1px 1px 6px black;
+		font-weight: bold;
+		}
+		#price{
+			font-size: 1.5em;
+			text-shadow: 1px 1px 6px black;
+			font-style: oblique;
+			text-decoration: underline;
+		}
+        
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    body{
+        background-color: red;
+			display: none;
+        }
+        #responsive-img{
+
+            position: fixed;
+            width: 100%;
+            height: auto;
+        }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
