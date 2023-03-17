@@ -19,7 +19,9 @@
 
     #responsive-img{
 
-        
+        position: fixed;
+        width: 100%;
+        height: auto;
     }
 
     
@@ -114,7 +116,7 @@
         color: rgb(252, 252, 252);
         padding: 0.5em;
         text-shadow: 1px 1px 3px black;
-        font-size: 1.4em;
+        font-size: 6vw;
         font-family: 'Montserrat Alternates', sans-serif;
 
     }
@@ -278,10 +280,14 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 
-body{
-	
-	background-color: green;
-}
+
+        #responsive-img{
+            position: fixed;
+            width: 100%;
+            height: auto;
+            top: 100px;
+            z-index: -1;
+        }
 
 
 /* HOME */
@@ -386,138 +392,41 @@ body{
 @media (min-width: 868px) { 
     
     body{
+        display: none;
         background-color: blue;
 
         }
         #responsive-img{
 
-           
+            position: fixed;
             width: 100%;
-				height: auto;
-				object-fit: cover;
-				position: fixed;
-				top: -300px;
-				z-index:  -1;
-          
+            height: auto;
         }
-    /* HOME */
+    
 
-	#HOME{
-	font-size: 7em;
-	position: relative;
-	top: -6em;
-	padding-top: 40px;
-	
-	}
-	
-	#MENU{
-		font-size: 7em;
-	}
-	
-	.MenuList li{
-		font-size: 3vw;
-		}
-	
-	.toppings{
-			position: relative;
-			top: 3em;
-		
-		}
-		.toppings h4{
-		
-		color: white;
-		font-size: 1.5em;
-		text-shadow: 1px 1px 6px yellow;
-			
-		}
-		
-		.toppings p{
-			color: rgb(255, 241, 133);
-			text-shadow: 1px 1px 5px black;
-			font-weight: bold;
-			font-style: italic;
-		}
-
-		.Pasta-choice{
-			position: relative;
-			top: 1em;
-		}
-		
-		.Pasta-choice h4{
-			color: white;
-			font-size: 1.5em;
-			text-shadow: 1px 1px 6px yellow;
-		}
-		
-		#pasta{
-			color: rgb(255, 241, 133);
-			text-shadow: 1px 1px 5px black;
-			font-weight: bold;
-			font-style:italic;			
-		}
-		
-		#pasta i{
-		color: red;
-		font-style: none;
-		text-shadow: 1px 1px 3px black;
-		}
-		
-		.deluxe h5{
-			color: white;
-			text-shadow: 1px 1px 6px yellow;
-			position: relative;
-			top: 2em;
-		
-		}
-		
-		#burrito-cap{
-		color: white;
-			text-shadow: 1px 1px 6px yellow;
-			position:  relative;
-			top: 1em;
-		}
-		
-		
-		#txt-color2{
-		font-size: 2em;
-		text-shadow: 1px 1px 6px black;
-		font-weight: bold;
-		}
-		#price{
-			font-size: 1.5em;
-			text-shadow: 1px 1px 6px black;
-			font-style: oblique;
-			text-decoration: underline;
-		}
-		
 }
 
  /*Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    body{
+        background-color: rgb(0, 255, 98);
+        display: none;
 
-    #responsive-img{
-background-color: gold;
-
-}
-  #responsive-img{
-
-           
-            width: 100%;
-				height: auto;
-				object-fit: cover;
-				position: fixed;
-				top: -200px;
-				z-index:  -1;
-          
         }
-        
+        #responsive-img{
+
+            position: fixed;
+            width: 100%;
+            height: auto;
+        }
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
     body{
-        background-color: red;
-			display: none;
+        background-color: rgb(255, 77, 0);
+        display: none;
+
         }
         #responsive-img{
 
